@@ -1,0 +1,86 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização geral do corpo */
+body {
+    background-color: #ffffff;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cabeçalho da padaria */
+header {
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estrutura principal */
+main {
+    display: flex;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+/* Estilo para a barra lateral de categorias */
+.categories {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.categories h2 {
+    margin-bottom: 15px;
+    color: #003366;
+    font-size: 1.2rem;
+}
+
+.categories ul {
+    list-style: none;
+}
+
+.categories ul li {
+    margin-bottom: 10px;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: #1E90FF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.categories ul li a:hover {
+    color: #003366;
+}
+
+/* Estilo para o menu de itens */
+.menu {
+    flex: 3;
+}
+
+.menu article {
+    margin-bottom: 30px;
+}
+
+.menu article h3 {
+    color: #003366;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+/* Tabela
